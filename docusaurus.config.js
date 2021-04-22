@@ -2,8 +2,8 @@
 module.exports = {
   title: 'Awesome Developer Experience',
   tagline: 'Build fast. Build better. Build happy.',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://angeliski.github.io.',
+  baseUrl: '/awesome-developer-experience/',
   i18n: {
     defaultLocale: 'en',
     locales: ['pt-BR', 'en'],
