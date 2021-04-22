@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "ADE",
+    "description": "O titulo na barra principal - ADE"
+  },
+  "item.label.Links": {
+    "message": "Links",
+    "description": "Item na barra principal com o titulo Links"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Item na barra principal com o titulo GitHub"
+  }
+}
