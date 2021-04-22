@@ -51,7 +51,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/angeliski/awesome-developer-experience/edit/master/',
+            'https://github.com/angeliski/awesome-developer-experience/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
