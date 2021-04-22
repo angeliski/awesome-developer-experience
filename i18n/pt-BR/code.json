@@ -154,5 +154,29 @@
   "theme.common.skipToMainContent": {
     "message": "Pular para o conteúdo principal",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "Easy to Use": {
+    "message": "Fácil de usar"
+  },
+  "Find all content about Developer Experience in one place": {
+    "message": "Encontre todo o conteúdo sobre experiência do desenvolvedor em um lugar"
+  },
+  "Learn and Share": {
+    "message": "Aprenda e compartilhe"
+  },
+  "You can learn more and share with your friends": {
+    "message": "Você pode aprender mais e compartilhar com os amigos"
+  },
+  "Powered by Community": {
+    "message": "Construido pela comunidade"
+  },
+  "homepage.poweredCommunity": {
+    "message": "Encontrou um bom recurso? Abra um {PR} e adicione para todo mundo ler"
+  },
+  "homepage.tagline": {
+    "message": "Construa rápido. Melhor. E mais feliz."
+  },
+  "Show me the resources!": {
+    "message": "Mostre me os recursos!"
   }
 }

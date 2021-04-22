@@ -3,7 +3,7 @@ module.exports = {
   title: 'Awesome Developer Experience',
   tagline: 'Build fast. Build better. Build happy.',
   url: 'https://angeliski.github.io.',
-  baseUrl: '/awesome-developer-experience/',
+  baseUrl: '/',
   i18n: {
     defaultLocale: 'en',
     locales: ['pt-BR', 'en'],

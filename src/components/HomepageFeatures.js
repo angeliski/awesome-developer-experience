@@ -1,35 +1,40 @@
 import React from 'react';
 import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import styles from './HomepageFeatures.module.css';
+
+import Translate, {translate} from '@docusaurus/Translate';
+
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: translate({message: 'Easy to Use'}),
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        <Translate>Find all content about Developer Experience in one place</Translate>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: translate({message: 'Learn and Share'}),
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        <Translate>You can learn more and share with your friends</Translate>
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: translate({message: 'Powered by Community'}),
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        <Translate
+          id="homepage.poweredCommunity"
+          values={{PR: <Link to="https://github.com/angeliski/awesome-developer-experience/pulls">PR</Link>}}>
+          {'Found a good resource? Open a {PR} and add to everyone read'}
+        </Translate>
       </>
     ),
   },
