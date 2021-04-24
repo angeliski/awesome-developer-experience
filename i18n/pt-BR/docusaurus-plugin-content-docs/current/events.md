@@ -1,7 +1,8 @@
 ---
+sidebar_position: 8
 ---
-
 # Eventos
 
-## 2020
-- [devxconf](https://devxconf.org/) - APRIL 28-29, 2021 - VIRTUAL
+## 2021
+- [devxconf](https://devxconf.org/) - April 28-29 - Virtual
+- [o11yfest](https://o11yfest.org/) -  May 17-18 - Virtual
