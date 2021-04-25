@@ -6,12 +6,13 @@ jobs:
       - image: algolia/docsearch-scraper
     steps:
       - checkout
-      - run:
-          name: load config
-          command: CONFIG=$(cat ./search_configs/site.json | jq -r tostring)
+      - run: sudo apt-get install jq -y
       - run:
           name: Run crawler
-          command: pipenv run python -m src.index
+          command: |
+                export CONFIG=$(cat ./search_configs/site.json | jq -r tostring) 
+                cd ../ 
+                pipenv run python -m src.index
 
 workflows:
   index-algolia:
