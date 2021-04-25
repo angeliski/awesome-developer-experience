@@ -4,6 +4,8 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+You can find the production version at [http://awesome-exp.dev/](http://awesome-exp.dev/)
+
 ## Installation
 
 ```console
@@ -26,10 +28,15 @@ yarn build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-## Deployment
+# Algolia Index
 
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+You can run in your local environment.
+```sh
+docker run -it --env-file=.env -e "CONFIG=$(cat ./search_configs/site.json | jq -r tostring)" algolia/docsearch-scraper
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Or add a tag in the following format: `index.[SOMETHING]`. In any case, the index process run at midnight point to main branch.
+
+## Deployment
+
+The deployment is handle by [Netlify](https://app.netlify.com/sites/awesome-developer-experience/deploys), open your PR and just wait for the preview.

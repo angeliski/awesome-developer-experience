@@ -15,11 +15,21 @@ jobs:
                 pipenv run python -m src.index
 
 workflows:
-  index-algolia:
+  index-schedule:
+    triggers:
+      - schedule:
+          cron: '0 0 * * *'
+          filters:
+            branches:
+             only:
+                - main
+    jobs:
+      - index
+  index-tagged:
     jobs:
       - index:
           filters:
+            tags:
+              only: /^index.*/
             branches:
-              only:
-                - main
-                - circleci-project-setup
+              ignore: /.*/
