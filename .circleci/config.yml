@@ -1,0 +1,24 @@
+version: 2.1
+
+jobs:
+  index:
+    docker:
+      - image: algolia/docsearch-scraper
+    steps:
+      - checkout
+      - run:
+          name: load config
+          command: CONFIG=$(cat ./search_configs/site.json | jq -r tostring)
+      - run:
+          name: Run crawler
+          command: pipenv run python -m src.index
+
+workflows:
+  index-algolia:
+    jobs:
+      - index:
+          filters:
+            branches:
+              only:
+                - main
+                - circleci-project-setup
