@@ -1,3 +1,5 @@
+const { SEARCH_API_KEY, APP_ID} = process.env
+
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Awesome Developer Experience',
@@ -14,6 +16,11 @@ module.exports = {
   organizationName: 'angeliski',
   projectName: 'awesome-developer-experience',
   themeConfig: {
+    algolia: {
+      apiKey: SEARCH_API_KEY,
+      indexName: 'site_production',  
+      appId: APP_ID,
+    },
     navbar: {
       title: 'ADE',
       logo: {
