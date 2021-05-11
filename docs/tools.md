@@ -4,11 +4,11 @@ sidebar_position: 7
 # Tools
 <p></p>
 
-## Continuos Delivery
+## Continuous Delivery
 
 - [spinnaker](https://spinnaker.io/)
 
-## Continuos Integration
+## Continuous Integration
 
 - [Buildkite](https://buildkite.com/)
 - [CircleCI](https://circleci.com/)
