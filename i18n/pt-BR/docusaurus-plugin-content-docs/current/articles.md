@@ -26,3 +26,5 @@ sidebar_position: 2
 - [Engineering Productivity Can Be Measured - Just Not How You'd Expect](https://www.okayhq.com/blog/engineering-productivity-can-be-measured)
 - [Guiding Principles for Developer Tools](https://philcalcado.com/2019/07/30/developer_tools_principles.html)
 - [How a Brilliant Platform Engineer Saved Twilio From ‘Absolute Disaster’](https://builtin.com/software-engineering-perspectives/platform-engineer-twilio-ask-your-developer-excerpt)
+- [Staying on the path to high performing teams](https://lethain.com/durably-excellent-teams/)
+- [Why you should invest in good Developer Experience today](https://www.thoughtworks.com/insights/blog/why-you-should-invest-good-developer-experience-today)
