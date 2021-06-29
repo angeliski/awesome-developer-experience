@@ -29,3 +29,4 @@ sidebar_position: 2
 - [Staying on the path to high performing teams](https://lethain.com/durably-excellent-teams/)
 - [Why you should invest in good Developer Experience today](https://www.thoughtworks.com/insights/blog/why-you-should-invest-good-developer-experience-today)
 - [Dev - Shopify's All Purpose Development Tool](https://devproductivity.io/dev-shopifys-all-purpose-development-tool/index.html)
+- [Auth0 Internal Dev Tools: Unleashing Engineering Potential](https://auth0.com/blog/auth0-internal-dev-tools-unleashing-engineering-potential/)
