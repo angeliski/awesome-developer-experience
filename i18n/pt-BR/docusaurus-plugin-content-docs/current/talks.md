@@ -10,6 +10,7 @@ sidebar_position: 4
 - [Plataforma Fury no Mercado Livre](https://www.youtube.com/watch?v=jhSoFPONQ5s&ab_channel=FullCycle)
 - [Scaling Instagram Infrastructure](https://www.youtube.com/watch?v=hnpzNAPiC0E)
 - [ShipIt! Presents: Keeping Developers Happy with a Fast CI](https://www.youtube.com/watch?v=ZljSGHF9T5g)
+- [TechDocs: Unlocking the Potential of Engineers' Collective Knowledge - Emma Indal, Spotify](https://kccnceu2021.sched.com/event/iE4G/techdocs-unlocking-the-potential-of-engineers-collective-knowledge-emma-indal-spotify)
 
 
 ## Pagas
