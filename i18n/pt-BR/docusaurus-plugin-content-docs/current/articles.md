@@ -28,6 +28,6 @@ sidebar_position: 2
 - [How a Brilliant Platform Engineer Saved Twilio From ‘Absolute Disaster’](https://builtin.com/software-engineering-perspectives/platform-engineer-twilio-ask-your-developer-excerpt)
 - [Staying on the path to high performing teams](https://lethain.com/durably-excellent-teams/)
 - [Why you should invest in good Developer Experience today](https://www.thoughtworks.com/insights/blog/why-you-should-invest-good-developer-experience-today)
-- [Dev - Shopify's All Purpose Development Tool](https://devproductivity.io/dev-shopifys-all-purpose-development-tool/index.html)
+- [Dev - Shopify's All Purpose Development Tool](https://devproductivity.github.io/devproductivity.io/shopify-developer-environments-p2/index.html)
 - [Auth0 Internal Dev Tools: Unleashing Engineering Potential](https://auth0.com/blog/auth0-internal-dev-tools-unleashing-engineering-potential/)
 - [How we are improving developer experience at QuintoAndar with backstage.io](https://medium.com/quintoandar-tech-blog/how-we-are-improving-developer-experience-at-quintoandar-with-backstage-io-fa1ab70b75cb)
