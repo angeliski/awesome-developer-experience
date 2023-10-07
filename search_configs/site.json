@@ -6,7 +6,7 @@
     "sitemap_urls": [
         "https://awesome-exp.dev/pt-br/sitemap.xml",
         "https://awesome-exp.dev/sitemap.xml"
-        
+
     ],
     "sitemap_alternate_links": true,
     "stop_urls": [],
@@ -30,7 +30,8 @@
         "separatorsToIndex": "_",
         "attributesForFaceting": [
             "language",
-            "type"
+            "type",
+            "docusaurus_tag"
         ],
         "attributesToRetrieve": [
             "hierarchy",
