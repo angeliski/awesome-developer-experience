@@ -4,7 +4,7 @@ const { SEARCH_API_KEY, APP_ID} = process.env
 module.exports = {
   title: 'Awesome Developer Experience',
   tagline: 'Build fast. Build better. Build happy.',
-  url: 'https://awesome-exp.dev ',
+  url: 'https://awesome-exp.dev',
   baseUrl: '/',
   i18n: {
     defaultLocale: 'en',
@@ -18,7 +18,7 @@ module.exports = {
   themeConfig: {
     algolia: {
       apiKey: SEARCH_API_KEY,
-      indexName: 'site_production',  
+      indexName: 'site_production',
       appId: APP_ID,
     },
     navbar: {
@@ -43,7 +43,7 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
-        
+
       ],
     },
     footer: {
