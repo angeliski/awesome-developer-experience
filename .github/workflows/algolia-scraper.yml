@@ -1,0 +1,21 @@
+name: Algolia Scraper
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  crawler:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use docsearch-scraper
+      uses: docker://algolia/docsearch-scraper
+    - run: sudo apt-get install jq -y
+    - name: Run crawler
+      run: |
+          export CONFIG=$(cat ./search_configs/site.json | jq -r tostring) 
+          cd ../ 
+          pipenv run python -m src.index
