@@ -1,8 +1,0 @@
-[[plugins]]
-package = "@algolia/netlify-plugin-crawler"
-  [plugins.inputs]
-  mainBranch = 'main'
-  branches = ['main']
-  customDomain = "awesome-exp.dev"
-  renderJavaScript = true
-  template = "hierarchical"
