@@ -9,12 +9,15 @@ jobs:
   crawler:
 
     runs-on: ubuntu-latest
-    container: algolia/docsearch-scraper
     steps:
     - uses: actions/checkout@v3
-    - run: sudo apt-get install jq -y
-    - name: Run crawler
-      run: |
-          export CONFIG=$(cat ./search_configs/site.json | jq -r tostring)
-          cd ../
-          pipenv run python -m src.index
+    - name: Get the content of algolia.json as config
+      id: algolia_config
+      run: echo "config=$(cat ./search_configs/site.json | jq -r tostring)" >> $GITHUB_OUTPUT
+
+    - name: Push indices to Algolia
+      uses: signcl/docsearch-scraper-action@v1.0.1
+      env:
+        APPLICATION_ID: ${{ secrets.API_KEY }}
+        API_KEY: ${{ secrets.APPLICATION_ID }}
+        CONFIG: ${{ steps.algolia_config.outputs.config }}
