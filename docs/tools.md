@@ -23,6 +23,7 @@ sidebar_position: 7
 ## Local Development
 
 - [k3d](https://k3d.io/)
+- [tilt](https://tilt.dev/)
 
 ## Developer Portals
 
@@ -30,3 +31,8 @@ sidebar_position: 7
 
 ## Code Review
 - [axolo](https://axolo.co/)
+
+## Platform
+
+- [garden](https://garden.io/)
+- [okteto](https://www.okteto.com/)

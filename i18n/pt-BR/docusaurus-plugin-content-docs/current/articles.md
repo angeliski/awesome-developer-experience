@@ -31,3 +31,23 @@ sidebar_position: 2
 - [Dev - Shopify's All Purpose Development Tool](https://devproductivity.github.io/devproductivity.io/shopify-developer-environments-p2/index.html)
 - [Auth0 Internal Dev Tools: Unleashing Engineering Potential](https://auth0.com/blog/auth0-internal-dev-tools-unleashing-engineering-potential/)
 - [How we are improving developer experience at QuintoAndar with backstage.io](https://medium.com/quintoandar-tech-blog/how-we-are-improving-developer-experience-at-quintoandar-with-backstage-io-fa1ab70b75cb)
+- [How Spotify Achieved a Voluntary 99% Internal Platform Adoption Rate](https://thenewstack.io/how-spotify-achieved-a-voluntary-99-internal-platform-adoption-rate/)
+- [Metrics-Driven Developer Productivity Engineering at Spotify](https://thenewstack.io/metrics-driven-developer-productivity-engineering-at-spotify/)
+- [Anything But Tech Debt](https://www.honeycomb.io/blog/anything-but-tech-debt)
+- [The 25 Percent Rule for Tackling Technical Debt](https://shopify.engineering/technical-debt-25-percent-rule)
+- [A thorough team guide to RFCs](https://leaddev.com/technical-decision-making/thorough-team-guide-rfcs)
+- [Scaling Engineering Teams via RFCs: Writing Things Down](https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/)
+- \[Paid\] [Measuring Software Engineering Productivity](https://newsletter.pragmaticengineer.com/p/engineering-productivity)
+- [Bottleneck #05: Resilience and Observability](https://martinfowler.com/articles/bottlenecks-of-scaleups/05-resilience-and-observability.html)
+- [Disaster Recovery — Projetando e Gerenciando Arquiteturas Multi-Region na AWS com Terraform](https://medium.com/@fidelissauro/disaster-recovery-projetando-e-gerenciando-arquiteturas-multi-region-na-aws-com-terraform-8e9a6a9a8669)
+- [Developer productivity for fun and profit - Parte 1](https://eltonminetto.dev/post/2023-01-25-developer-productivity-fun-profit-p1/)
+- [Developer productivity for fun and profit - Parte 2](https://eltonminetto.dev/post/2023-08-01-developer-productivity-fun-profit-p2/)
+- [Developer Experience — Chapter One](https://angeliski.com.br/developer-experience-chapter-one)
+- [Developer Experience — Chapter Two](https://angeliski.com.br/developer-experience-chapter-two)
+- [Backstage — O que é isso?](https://blog.backtostage.app/backstage-o-que-e-isso)
+- [Começando com o Backstage Spotify](https://blog.backtostage.app/comecando-com-o-backstage-spotify)
+- [Continuous Integration Vs Continuous Delivery Vs Continuous Deployment](https://www.fernandoike.com/pt/2020/07/16/continuous-integration-vs-continuous-delivery-vs-continuous-deployment/)
+
+
+## Carreira
+- [Specialists vs Generalists vs T-Shaped](https://hybridhacker.email/p/specialists-vs-generalists-vs-t-shaped)
